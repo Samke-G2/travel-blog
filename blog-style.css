@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Body style*/
+body {
+    
+}
+
+/* Header section */
+header {
+    padding: 60px;
+    text-align: center;
+    background-color: lightblue ;
+    color: white;
+}
+
+/* Navigation Bar */
+.navbar {
+
+}
+
+/* The div containing other divs */
+.parts {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Creates two columns; one on the side for comments, and a main section for the travel locations and such */
+/* comments section*/
+.comments {
+    flex: 30%;
+    background-color: blue;
+    padding: 20px;
+}
+
+/* Main part with the content*/
+.main {
+    flex: 70%;
+    background-color: green;
+    padding: 20px;
+}
+
+/* Footer section */
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: darkcyan;
+}
+
+/* This is that media query bit that i just learned. 
+    Makes the 2 sections display as one when the screen size is less than 700px wide. */
+@media (max-width: 700px) {
+    .parts, .navbar {
+        flex-direction: column;
+    }
+}

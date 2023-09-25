@@ -28,7 +28,7 @@ header {
 
 /* Creates two columns; one on the side for comments, and a main section for the travel locations and such */
 /* comments section*/
-.comments {
+.sidebar {
     flex: 30%;
     background-color: blue;
     padding: 20px;

@@ -14,10 +14,14 @@ header {
     background-color: lightblue ;
     color: white;
 }
+.search {
+    width:15px; 
+    height:15px;
+}
 
 /* Navigation Bar */
 .navbar {
-
+    text-align: center
 }
 
 /* The div containing other divs */

@@ -4,12 +4,12 @@
 
 /* Body style*/
 body {
-    
+    background-color: grey;
 }
 
 /* Header section */
 header {
-    padding: 60px;
+    /* padding: 60px; */
     text-align: center;
     background-color: lightblue ;
     color: white;
